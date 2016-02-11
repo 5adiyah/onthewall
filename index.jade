@@ -1,0 +1,36 @@
+//output:index.html
+
+doctype
+html
+	title 5adiyah
+	link(rel="stylesheet", href="css/normalize.css")
+	link(rel="stylesheet", href="css/skeleton.css")
+	link(rel="stylesheet", href="css/styles.css")
+	link(href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,300' rel="stylesheet" type="text/css")
+	script(src="jquery-1.12.0.js")
+	script(src="scripts.js")
+	body
+
+		.container
+			.container
+				.header
+				.title
+					h2.center BOTTLES ON THE WALL
+				.subsitle
+					p.center PRACTICING WITH LOOPING
+					p.center
+						img(src="coke.jpg", height="150px")
+			
+			.container.userinput
+				form#formid.center
+					.row
+						.twelve.columns.mynum
+							input.u-full-width(type="text", id="mynum", placeholder="Please enter a number greater than 1")
+							input.button-primary(type="submit", value="Submit")
+			
+			.container#loopingwords
+				.numlargerthan1
+					p.2
+				.numequals1
+			.container#song
+					

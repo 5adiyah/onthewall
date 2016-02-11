@@ -1,0 +1,73 @@
+.header {
+  margin-top: 3%;
+  padding-top: 3%;
+}
+
+.center {
+  text-align: center;
+}
+
+.white{
+  color: #fff;
+}
+
+.strong {
+  font-weight: bold;
+}
+
+.darkpurple {
+  color: #140023
+}
+
+.tan {
+  color: #EE9285;
+}
+
+.title h2 {
+  font-family: serif;
+  font-weight: 600;
+  letter-spacing: 4px;
+  color: #E0260C;
+}
+
+.subsitle p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  letter-spacing: 6px;
+  color: #E0260C;
+}
+
+.whitebox {
+  background-color: #fafafa;
+  margin-bottom: 3%;
+  border-radius: 15px;
+}
+
+body {
+  background-color: #fff;
+  color: #140023;
+}
+
+.button:hover{
+  background-color: #fff;
+  color: #EE9285;
+  border: 1px solid #fff;
+}
+
+hr {
+  color: #FFF;
+  border: 2px solid #FFF;
+}
+
+a {
+  text-decoration: none;
+  color: #EE9285;
+}
+
+.button.button-primary, button.button-primary, input[type="submit"].button-primary, input[type="reset"].button-primary, input[type="button"].button-primary {
+  background-color: #140023;
+  border-color: #140023;
+}
+.numlargerthan1, .numequals1 {
+  display: none;
+}
